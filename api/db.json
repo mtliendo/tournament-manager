@@ -1,0 +1,448 @@
+{
+  "tournaments": [
+    {
+      "tournamentName": "Illowa April - readable",
+      "tournamentDate": "4/8/2020",
+      "pairingMethod": "roundRobin",
+      "userId": "117958028007679970719",
+      "numRounds": 1,
+      "id": 5,
+      "games": [],
+      "players": [
+        {
+          "playerFirstName": "Jason",
+          "playerLastName": "Kolberg",
+          "uscfId": "12700094",
+          "uscfRating": "1760",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "tournamentName": "it did edit",
+      "tournamentDate": "4/20/2020",
+      "pairingMethod": "roundRobin",
+      "numRounds": 3,
+      "games": [
+        [
+          {
+            "white": "12700094",
+            "black": "44444444",
+            "played": true,
+            "score": 1
+          },
+          {
+            "white": "22222222",
+            "black": "33333333",
+            "played": true,
+            "score": 0.5
+          }
+        ],
+        [
+          {
+            "white": "44444444",
+            "black": "22222222",
+            "played": true,
+            "score": 1
+          },
+          {
+            "white": "33333333",
+            "black": "12700094",
+            "played": true,
+            "score": 0.5
+          }
+        ],
+        [
+          {
+            "white": "33333333",
+            "black": "44444444",
+            "played": true,
+            "score": 1
+          },
+          {
+            "white": "12700094",
+            "black": "22222222",
+            "played": true,
+            "score": 1
+          }
+        ]
+      ],
+      "userId": "108134707643303888745",
+      "id": 6,
+      "players": [
+        {
+          "playerFirstName": "Jason",
+          "playerLastName": "Kolberg",
+          "uscfId": "12700094",
+          "uscfRating": "1760",
+          "score": 2.5
+        },
+        {
+          "playerFirstName": "Rick",
+          "playerLastName": "Rector",
+          "uscfId": "33333333",
+          "uscfRating": "1600",
+          "score": 2
+        },
+        {
+          "playerFirstName": "Martin",
+          "playerLastName": "Miller",
+          "uscfId": "44444444",
+          "uscfRating": "1700",
+          "score": 1
+        },
+        {
+          "playerFirstName": "Bala",
+          "playerLastName": "Shukla",
+          "uscfId": "22222222",
+          "uscfRating": "1900",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "tournamentName": "so close now",
+      "tournamentDate": "4/16/2020",
+      "pairingMethod": "roundRobin",
+      "numRounds": 3,
+      "games": [
+        [
+          {
+            "white": "12700094",
+            "black": "44444444",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "22222222",
+            "black": "33333333",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "44444444",
+            "black": "22222222",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "33333333",
+            "black": "12700094",
+            "played": true,
+            "score": 0.5
+          }
+        ],
+        [
+          {
+            "white": "33333333",
+            "black": "44444444",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "12700094",
+            "black": "22222222",
+            "played": false,
+            "score": -1
+          }
+        ]
+      ],
+      "userId": "108134707643303888745",
+      "id": 7,
+      "players": [
+        {
+          "playerFirstName": "Luis",
+          "playerLastName": "Peralta",
+          "uscfId": "33333333",
+          "uscfRating": "1900",
+          "score": 0.5
+        },
+        {
+          "playerFirstName": "Jason",
+          "playerLastName": "Kolberg",
+          "uscfId": "12700094",
+          "uscfRating": "1760",
+          "score": 0.5
+        },
+        {
+          "playerFirstName": "Rick",
+          "playerLastName": "Rector",
+          "uscfId": "44444444",
+          "uscfRating": "1600",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Bala",
+          "playerLastName": "Shukla",
+          "uscfId": "22222222",
+          "uscfRating": "1900",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "tournamentName": "round robin working?",
+      "tournamentDate": "4/20/2020",
+      "pairingMethod": "roundRobin",
+      "numRounds": 7,
+      "games": [
+        [
+          {
+            "white": "12700094",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "22222222",
+            "black": "77777777",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "33333333",
+            "black": "66666666",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "44444444",
+            "black": "55555555",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "44444444",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "55555555",
+            "black": "33333333",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "66666666",
+            "black": "22222222",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "77777777",
+            "black": "12700094",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "77777777",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "12700094",
+            "black": "66666666",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "22222222",
+            "black": "55555555",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "33333333",
+            "black": "44444444",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "33333333",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "44444444",
+            "black": "22222222",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "55555555",
+            "black": "12700094",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "66666666",
+            "black": "77777777",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "66666666",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "77777777",
+            "black": "55555555",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "12700094",
+            "black": "44444444",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "22222222",
+            "black": "33333333",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "22222222",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "33333333",
+            "black": "12700094",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "44444444",
+            "black": "77777777",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "55555555",
+            "black": "66666666",
+            "played": false,
+            "score": -1
+          }
+        ],
+        [
+          {
+            "white": "55555555",
+            "black": 0,
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "66666666",
+            "black": "44444444",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "77777777",
+            "black": "33333333",
+            "played": false,
+            "score": -1
+          },
+          {
+            "white": "12700094",
+            "black": "22222222",
+            "played": false,
+            "score": -1
+          }
+        ]
+      ],
+      "userId": "108134707643303888745",
+      "id": 8,
+      "players": [
+        {
+          "playerFirstName": "Jason",
+          "playerLastName": "Kolberg",
+          "uscfId": "12700094",
+          "uscfRating": "1760",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Bala",
+          "playerLastName": "Shukla",
+          "uscfId": "22222222",
+          "uscfRating": "1000",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Tony",
+          "playerLastName": "Britton",
+          "uscfId": "33333333",
+          "uscfRating": "1100",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Rick",
+          "playerLastName": "Rector",
+          "uscfId": "44444444",
+          "uscfRating": "1200",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Martin",
+          "playerLastName": "Miller",
+          "uscfId": "55555555",
+          "uscfRating": "1400",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Luis",
+          "playerLastName": "Peralta",
+          "uscfId": "66666666",
+          "uscfRating": "1500",
+          "score": 0
+        },
+        {
+          "playerFirstName": "Mark",
+          "playerLastName": "Steddom",
+          "uscfId": "77777777",
+          "uscfRating": "1600",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "tournamentName": "classical",
+      "tournamentDate": "4/3/2020",
+      "pairingMethod": "roundRobin",
+      "numRounds": 0,
+      "games": [],
+      "userId": "108134707643303888745",
+      "id": 9,
+      "players": []
+    },
+    {
+      "tournamentName": "dummy",
+      "tournamentDate": "5/20/20",
+      "pairingMethod": "adjacent",
+      "numRounds": 0,
+      "games": [],
+      "userId": "108134707643303888745",
+      "id": 10
+    }
+  ]
+}
