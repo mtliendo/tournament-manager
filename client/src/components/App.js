@@ -16,32 +16,30 @@ import EnterResults from './tournaments/EnterResults';
 import TournamentEdit from './tournaments/TournamentEdit';
 import Header from './Header';
 import history from '../history';
- 
-const App = () => {
-  return (
-    <div className="ui container">
-      <Router history={history}>
-        <div>
-          <Header />
-          <Switch>
-            <Route path="/" exact component={TournamentList} />
-            <Route path="/tournaments/create" component={TournamentCreate} />
-            <Route path="/tournaments/show/:id" component={TournamentShow} />
-            <Route path="/tournaments/manage/:id" component={TournamentShow} />
-            <Route path="/tournaments/edit/:id" component={TournamentEdit} />
-            <Route path="/tournaments/delete/:id" component={TournamentDelete} />
-            <Route path="/players/manage/:id" component={PlayerList} />
-            <Route path="/players/create/:id" component={PlayerCreate} />
-            <Route path="/players/edit/:id/:playerId" component={PlayerEdit} />
-            <Route path="/players/delete/:id/:playerId" component={PlayerDelete} />
-            <Route path="/tournaments/wallchart/:id" component={WallChart} />
-            <Route path="/tournaments/pair/:id" component={PairGames} />
-            <Route path="/tournaments/results/:id" component={EnterResults} />
-          </Switch>
-        </div>
-      </Router>
-    </div>
-  )
-};
- 
+
+const App = () => (
+  <div className="ui container">
+    <Router history={history}>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={TournamentList} />
+          <Route path="/tournaments/create" component={TournamentCreate} />
+          <Route path="/tournaments/show/:id" component={TournamentShow} />
+          <Route path="/tournaments/manage/:id" component={TournamentShow} />
+          <Route path="/tournaments/edit/:id" component={TournamentEdit} />
+          <Route path="/tournaments/delete/:id" component={TournamentDelete} />
+          <Route path="/players/manage/:id" component={PlayerList} />
+          <Route path="/players/create/:id" component={PlayerCreate} />
+          <Route path="/players/edit/:id/:playerId" component={PlayerEdit} />
+          <Route path="/players/delete/:id/:playerId" component={PlayerDelete} />
+          <Route path="/tournaments/wallchart/:id" component={WallChart} />
+          <Route path="/tournaments/pair/:id" component={PairGames} />
+          <Route path="/tournaments/results/:id" component={EnterResults} />
+        </Switch>
+      </div>
+    </Router>
+  </div>
+);
+
 export default App;

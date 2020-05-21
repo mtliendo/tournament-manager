@@ -3,20 +3,18 @@ import { Link } from 'react-router-dom';
 import GoogleAuth from './GoogleAuth';
 
 
-const Header = () => {
-  return (
-    <div className="ui secondard pointing menu">
+const Header = () => (
+  <div className="ui secondard pointing menu">
+    <Link to="/" className="item">
+      Periwinkle - Chess Tournament Manager
+    </Link>
+    <div className="right menu">
       <Link to="/" className="item">
-        Periwinkle - Chess Tournament Manager
+        All Tournaments
       </Link>
-      <div className="right menu">
-        <Link to="/" className="item">
-          All Tournaments
-        </Link>
-        <GoogleAuth/>
-      </div>
+      <GoogleAuth />
     </div>
-  );
-}
+  </div>
+);
 
 export default Header;
