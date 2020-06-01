@@ -60,7 +60,7 @@ class PlayerList extends React.Component {
 
     return (
       <Fragment>
-        <Link 
+        <Link
         to={`/players/create/${this.props.tournament.id}`} 
         className="ui button primary">
           Add Player
